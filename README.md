@@ -1,9 +1,18 @@
-# README
+#Media Woman
+Social media marketing is more than sharing content.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Media Woman uses web-based and mobile technologies to create highly interactive platforms through which individuals, communities and organizations can share.
+
+Social media changes the way individuals and large organizations communicate.
+
+Social Media presents businesses with a direct line to their current and potential customers.
+
+______________________________________________________________________________
+
+
+
+
 
 * Ruby version 5
 * bootstrap 4
@@ -23,9 +32,19 @@ group :development do
 end
 
 
+# bootstrap
+-Put in your Gemfile
+
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
+
+
 ______________________________________________________________________________
 
-<!-- #font-awesome-sass -->
+#font-awesome-sass
 
 Font Awesome = http://fontawesome.io/get-started/
 
@@ -36,16 +55,10 @@ Add this line to your application's Gemfile:
 
 gem 'font-awesome-sass'
 
-And then execute:
+And then execute (Terminal):
 $ bundle
 
-# bootstrap
 
-gem 'bootstrap', '~> 4.0.0.alpha6'
-
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.1.0'
-end
 
 
 ______________________________________________________________________________
@@ -71,4 +84,16 @@ body
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-# media_woman
+
+
+
+______________________________________________________________________________
+
+
+    Resources:
+
+    https://www.lyfemarketing.com/
+
+    https://sproutsocial.com/insights/social-media-and-business/
+
+    https://en.wikipedia.org/wiki/Social_media#Social_media_automation
